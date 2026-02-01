@@ -4,6 +4,7 @@ Customer Churn Analysis & Prediction
 
 This project focuses on analyzing customer behavior for a telecom company and building a machine learning model to predict customer churn. The goal is to identify customers who are likely to leave the service and uncover the key factors driving churn, enabling businesses to take proactive retention actions.
 
+
 🎯 Objectives
 
 Analyze customer data to understand churn patterns
@@ -13,6 +14,7 @@ Identify important factors influencing customer churn
 Build and evaluate machine learning models to predict churn
 
 Support data-driven decision-making for customer retention
+
 
 📊 Dataset Description
 
@@ -30,6 +32,7 @@ Billing details (monthly charges, total charges)
 
 Target variable: Churn (Yes / No)
 
+
 🛠️ Tools & Technologies
 
 Programming Language: Python
@@ -39,6 +42,7 @@ Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Machine Learning: Scikit-learn, XGBoost
 
 Techniques: EDA, feature engineering, data preprocessing, model evaluation
+
 
 🔎 Key Steps Performed
 
@@ -52,6 +56,7 @@ Training and evaluating multiple classification models
 
 Comparing models using accuracy, ROC-AUC, and confusion matrices
 
+
 🤖 Models Used
 
 Logistic Regression
@@ -60,6 +65,7 @@ Random Forest
 
 XGBoost
 
+
 📈 Results & Insights
 
 Random Forest achieved the best overall performance among tested models
@@ -67,6 +73,7 @@ Random Forest achieved the best overall performance among tested models
 Customers with short tenure, month-to-month contracts, and higher monthly charges showed higher churn rates
 
 Lack of support services (online security, tech support) increased churn probability
+
 
 💡 Business Impact
 
@@ -78,11 +85,13 @@ Design targeted retention strategies
 
 Reduce revenue loss due to customer churn
 
+
 📁 Repository Structure
 Customer-Churn-Prediction/
 │── README.md
 │── Customer Churn Analysis.py
 │── Dataset.csv   
+
 
 ✅ Conclusion
 
